@@ -32,12 +32,12 @@ obys-agency-clone/
 Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/obys-agency-clone.git
+git clone https://github.com/mohitvaishnav56/Obys-Studio-Clone.git
 Navigate to the project directory:
 ```
 
 ```bash
-cd obys-agency-clone
+cd Obys-Studio-Clone
 ```
 Open the index.html file in your preferred browser to view the project.
 
