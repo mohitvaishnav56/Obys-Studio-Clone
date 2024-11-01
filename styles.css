@@ -13,15 +13,15 @@ html, body {
 /* Custom styles go below */
 @font-face {
     font-family: 'PlainLight';
-    src: url('../assets/fonts/plain-light-webfont.ttf') format('truetype');
+    src: url('./assets/fonts/plain-light-webfont.ttf') format('truetype');
 }
 @font-face {
     font-family: 'PlainRegular';
-    src: url('../assets/fonts/plain-regular-webfont.ttf') format('truetype');
+    src: url('./assets/fonts/plain-regular-webfont.ttf') format('truetype');
 }
 @font-face {
     font-family: 'SilkSerifLightItalic';
-    src: url('../assets/fonts/silkserif-lightitalic-webfont.ttf') format('truetype');
+    src: url('./assets/fonts/silkserif-lightitalic-webfont.ttf') format('truetype');
 }
 
 .text-stroke {

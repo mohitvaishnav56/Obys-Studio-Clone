@@ -1,4 +1,5 @@
-let tl = gsap.timeline();
+function loaderAnime(){
+    let tl = gsap.timeline();
 tl.from("#ld-first h1",{
     y: 200,
     duration: .5,
@@ -33,3 +34,6 @@ gsap.from("#page1", {
 });
 
 
+
+}
+loaderAnime() ;
