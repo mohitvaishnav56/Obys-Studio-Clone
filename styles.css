@@ -43,3 +43,6 @@ html, body {
     margin-bottom: -100%;
   }
   
+  #hero div{
+    overflow: hidden;
+  }

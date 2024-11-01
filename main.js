@@ -1,5 +1,6 @@
+let tl = gsap.timeline();
 function loaderAnime(){
-    let tl = gsap.timeline();
+
 tl.from("#ld-first h1",{
     y: 200,
     duration: .5,
@@ -33,7 +34,13 @@ gsap.from("#page1", {
     ease: "cubic-bezier(0.215, 0.61, 0.355, 1)",
 });
 
-
-
 }
 loaderAnime() ;
+
+gsap.from("#hero h1", {
+    y: 1200,
+    duration: 1,
+    delay: 3.8,
+    stagger: .3,
+    ease: "power4.inOut",
+})
