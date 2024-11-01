@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles/loader.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+</head>
+
+<body class="bg-[#010101]">
+     <div class="loader h-full w-full bg-[#010101] fixed top-[0%] left-[0%] z-50 font-[PlainLight]">
+
+        <div id="ld-first" class="w-full h-[calc(100vh/3)] overflow-hidden  flex justify-start items-end pl-[10vw]">
+            <div id="timer"
+                class="h-[40%] w-[300px] flex justify-end items-start pr-[2vw]  font-[SilkSerifLightItalic]">
+                <h4 class="text-5xl text-white text-bold"><span id="countDown">0 </span> - 100</h4>
+            </div>
+            <h1 class="text-[7vw] text-white text-bold leading-none tracking-tight">YOUR</h1>
+        </div>
+
+
+        <div id="ld-sec"
+            class="w-full h-[calc(100vh/3)] overflow-hidden relative flex flex-col justify-center items-start pl-[8vw]">
+            <h1 class="text-[7vw] text-white text-bold leading-none tracking-tight">WEB EXPERIENCE</h1>
+            <h1 class="text-[7vw] text-white text-bold leading-none tracking-tight">IS LOADING RIGHT 
+            <h2 id="now" class="text-[7vw] absolute left-[70%] bottom-0 text-stroke-white font-[SilkSerifLightItalic]">NOW</h2></h1>
+        </div>
+
+        <div id="ld-third" class="w-full h-[calc(100vh/3)] overflow-hidden flex justify-start items-center pl-[30vw]">
+            <h1 class="text-white ">Please wait <br>a few seconds.</h1>
+        </div>
+
+    </div>
+
+    <main class="w-full relative bg-[#010101]">
+        <div id="page1" class="h-screen w-full bg-[#151515]"></div> 
+</main>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+        integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"
+        integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script type="module" src="main.js"></script>
+</body>
+
+</html>

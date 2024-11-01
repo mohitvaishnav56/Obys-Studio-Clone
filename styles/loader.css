@@ -1,0 +1,38 @@
+/* Reset CSS */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+/* Custom styles go below */
+
+#now{
+    animation: blink 1.2s infinite ease-in-out;
+}
+
+@keyframes blink{
+    0%{
+        font-family: PlainLight;
+        color: #fff;
+        opacity: 0.8;
+    }
+    20%{
+        opacity: 0.5;
+    }
+    50%{
+        font-family: SilkSerifLightItalic;
+        opacity: 0.5;
+    }
+    80%{
+        opacity: 0.8;
+    }
+100%{
+    font-family: SilkSerifLightItalic;
+    opacity: 1;
+}
+}
